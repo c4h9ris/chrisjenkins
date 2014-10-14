@@ -2,7 +2,11 @@ module.exports = function(grunt) {
 
     var js_files = [
                     // Load first
-                    'src/js/main.js'
+                    'src/js/main.js',
+                    'src/js/app/common/controllers/siteChris.js',
+                    'src/js/app/common/controllers/dialog.js'
+                    
+
                 ];
 
     // Project configuration.
